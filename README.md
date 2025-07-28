@@ -1,4 +1,4 @@
-# Mi Proyecto Final pagina de uan Tienda Virtual
+# Mi Proyecto Final de una  Tienda Virtual
 
 Este es un sitio web dinamico desarrollado con **HTML5, CSS3, JavaScript, Bootstrap**. Es reponsivo y obtiene la data de la API 'https://fakestoreapi.com/products'
 
