@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- metadatos que aseguran SEO y compactibilidad -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Te ofrecemos  una amplia gama de productos y servicios de calidad para satisfacer tus necesidades.">
+    <meta name ="keywords" content= "productos, servicios, calidad, necesidades, ofertas, promociones">
+    <meta name= "author" content="Victor Moya">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="es">
+    <title>Mi Tienda Virtual</title>
+    <!-- links a CSS y imagen icon -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="assets/imagenes/mi_Tienda_ico.ico" type="image/x-icon">
+    <!-- link a Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+     
+</head>
+<body>
+    <header>
+       <!-- Barra de navegación -->
+    
+      <nav class="navbar  navbar-expand-md navbar-light" >
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+              <img src="./assets/imagenes/MiTienda.jpg" width="50" alt="Logo de la tienda">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#productos">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#resenas">Reseñas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto" >Contacto</a>
+              </li>
+              <li class="carrito-icono">
+                <a href="carrito.html" title="Ver carrito">
+                  🛒
+                </a>
+              </li>
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+       
+           
+    </header>
+    <main>
+      <!-- Sección Productos -->
+      <section id="productos">
+        
+        <div id="productos" class="contenedor-productos"></div>
+          <h2>Productos Destacados</h2>         
+          
+        </div>
+        
+      </section>
+
+      <!-- Sección Reseñas -->
+      <section id="resenas" class="seccion-reseñas">
+        <h2>Opiniones de nuestros clientes</h2>
+        <div class="grid-reseñas">
+          <div class="reseña">
+            <p class="texto">"Excelente calidad y entrega rápida. Muy recomendable 👌"</p>
+            <p class="autor">– Ana Rodríguez</p>
+          </div>
+          <div class="reseña">
+            <p class="texto">"Los productos son tal cual se ven en las fotos. ¡Me encantó!"</p>
+            <p class="autor">– Martín Pérez</p>
+          </div>
+          <div class="reseña">
+            <p class="texto">"Buena atención al cliente y variedad de productos. Volveré a comprar."</p>
+            <p class="autor">– Lucía Gómez</p>
+          </div>
+          <div class="reseña">
+            <p class="texto">"Muy buena relación precio-calidad. Producto en perfecto estado."</p>
+            <p class="autor">– Diego Núñez</p>
+          </div>
+          <div class="reseña">
+            <p class="texto">"Me respondieron al instante por WhatsApp. Excelente atención."</p>
+            <p class="autor">– Sofía Ortega</p>
+          </div>
+          <div class="reseña">
+            <p class="texto">"Llevo varias compras y siempre cumplen. Muy recomendables."</p>
+            <p class="autor">– Carlos Medina</p>
+          </div>
+        </div>
+      </section>
+
+
+
+      </section>
+        <!-- Sección Contacto -->
+      <section id="contacto">
+        <h2>Contacto</h2>
+
+        <form action="https://formspree.io/f/xwpboopp" method="POST" class="form-contacto">
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre:</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email"placeholder="name@example.com" name="email" required>
+          </div> 
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje:</label>
+            <textarea class="form-control" id="mensaje" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+
+          <button type="reset" class="btn btn-secondary">Limpiar</button>
+          
+      </section>
+      
+
+ 
+      
+
+    </main>
+    <footer>
+      <div class="container text-center">
+        <p>&copy; 2023 Mi Tienda Virtual. Todos los derechos reservados.</p>
+        
+    </footer>
+    
+    
+    <!-- scripts de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
